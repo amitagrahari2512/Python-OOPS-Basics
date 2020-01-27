@@ -1,5 +1,6 @@
 print("Python have speacial method called __init__(self), "
-      "this method will automatically run when we create object")
+      "this method will automatically run when we create object,it act as a constructor"
+      "If we not use in our code but it will definatedly run by the compiler")
 
 print("This act like a constructor")
 
