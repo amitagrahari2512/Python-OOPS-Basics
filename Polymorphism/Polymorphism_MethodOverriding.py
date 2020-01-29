@@ -14,7 +14,7 @@ class B(A):
 b = B()
 b.show()
 
-print("But if we don't ahve same method in child, it will go to parent")
+print("But if we don't have same method in child, then it will go to parent and search for method")
 
 class B1(A):
     pass
