@@ -9,7 +9,7 @@ class Student:
     def __init__(self,name,rollNo):
         self.name = name
         self.rollNo = rollNo
-        self.lap = self.Laptop()
+        self.lap = self.Laptop() # We can create inner class object via self
 
     def show(self):
         print("name : {} , rollNo : {} ".format(self.name , self.rollNo))
